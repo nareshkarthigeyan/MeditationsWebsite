@@ -1,0 +1,140 @@
+
+
+body {
+    background-color: rgb(54, 54, 54);
+    padding-top: 0;
+}
+
+.caption-body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(255, 255, 255);
+    background-color: rgb(31, 31, 31);
+    font-family: Roboto, Arial;
+    font-size: 10px;
+    font-weight: 700;
+    font-style: italic;
+
+}
+
+.about-section-flex {
+    padding-top: 80px;
+    display: flex;
+    flex-direction: row;
+    width: 938px;
+    margin:0;
+}
+
+.about-section {
+    display: flex;
+    flex-direction: column;
+    width: 700px;
+    justify-content: center;
+    background-color: rgb(31, 31, 31);
+    margin-top: 5px;
+    padding: 10px;
+
+    
+}
+
+.book-cover {
+    margin: 5px 0 0 5px;
+    height: 310px;
+    cursor: pointer;
+}
+
+.book-cover:hover {
+   opacity: 85%;
+}
+
+.book-cover:active {
+    opacity: 60%;
+}
+
+@media (max-width: 735px) {
+    .about-section {
+        width: 460px;
+    }
+}
+
+@media (min-width: 460) {
+    .about-section {
+        width: 350px;
+    }
+}
+
+.about-section h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 700;
+    color: rgb(196, 196, 196);
+    margin-top: 0;
+
+}
+
+.about-section p {
+    font-family: 'Times New Roman', Times, serif, Arial;
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+    margin:0;
+    text-align: justify;   
+}
+
+.link {
+    cursor: pointer;
+    color: white;
+    font-style: italic;
+}
+
+.link:hover {
+    text-decoration: underline;
+    color: yellow;
+    opacity: 80%;
+}
+
+.link:active {
+    opacity: 60%;
+    color: yellowgreen
+}
+
+.about-menu-grid {
+    display: grid;
+    grid-template-columns: 938px 300px 100px;
+}
+
+@media (max-width: 1041px) {
+    .about-menu-grid {
+        grid-template-columns: 938px 300px;
+    }
+
+}
+
+.about-stoicism {
+    margin-top: 5px;
+    display: flex;
+    flex-direction: column;
+    width: 700px;
+    justify-content: center;
+    background-color: rgb(31, 31, 31);
+    margin-top: 5px;
+    padding: 10px;
+    color: white
+}
+
+.page {
+    max-width: 1270px;
+}
+
+.marcus {
+    display: flex;
+    flex-direction: column;
+    width: 650px;
+    height: 300px;
+    justify-content: center;
+    background-color: rgb(31, 31, 31);
+
+    margin: 80px 10px 10px 10px;
+    color: white;
+
+    
+}

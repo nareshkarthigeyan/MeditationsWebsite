@@ -1,0 +1,87 @@
+.main-header {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+    background-color: rgb(54, 54, 54);
+    margin:0;
+}
+
+
+.header-flex {
+    display: flex;
+    flex-direction: row;
+    height: 60px;
+    background-color:  rgb(31, 31, 31);
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 5px;
+    
+}
+
+.left-section {
+    display: flex;    
+    top:0;
+    width: 70px;
+    
+}
+
+.middle-section {
+    color: rgb(228, 228, 228);
+    font-family: 'Oswald', sans-serif;
+    font-size: 40px;
+    font-weight: 500;
+    margin: 0 0 3px 25px;
+    cursor: pointer;
+    transition: font-size 0.15;
+}
+
+.middle-section:hover {
+    opacity: 90%;
+    color: rgb(208, 223, 0);
+}
+
+.left-section img {
+    height: 55px;    
+    margin: 0 0 0 20px;
+    transition: height 0.75s opacity 0.15s;
+    cursor: pointer;
+
+}
+
+.left-section img:hover {
+    opacity: 90%;
+    margin-right: 5px;
+
+}
+
+.left-section img:active{
+    opacity: 70%;
+    height: 54px;
+}
+
+.right-section {
+    color: white;
+    margin: 0 20px;
+    font-family: Roboto, Arial;
+    cursor: pointer;
+    justify-self: center;
+
+}
+
+.right-section:hover {
+    text-decoration: underline;
+    opacity: 90%;
+}
+.caption-body a {
+    cursor: pointer;
+}
+.caption-body a:hover {
+    text-decoration: underline;
+    opacity: 80%;
+    color:rgb(208, 223, 0)
+}
+.caption-body a:active {
+    opacity: 60%
+} 
