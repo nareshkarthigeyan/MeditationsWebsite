@@ -1,4 +1,4 @@
-.menu {
+.menu, .menu2 {
     color:white;
     display: flex;
     flex-direction: column;
@@ -10,22 +10,46 @@
     padding-top: 80px;
 }
 
+.menu2 {
+    color:white;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Oswald', sans-serif;
+    font-size: 18px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 85px;
+    right: 0px;
+    left: 1000px;
+}
 
 
-.menu div {
+
+.menu div, .menu2 div {
     margin:5px 0 5px 0;
     padding: 2 0 2 5;
-    background-color: rgb(20, 20, 20);
+    background-color: rgb(31, 31, 31);
     width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
 }
 
-.menu div:hover {
+.menu div:hover , .menu2 div:hover {
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.253);
+    background-color: rgb(20, 20, 20);
 }
 
-.menu p {
-    background-color: rgb(31,31,31);
+.menu a, .menu2 a {
+    
     margin: 0;
+    color: white;
+    font-style: normal;
+    text-decoration: none;
+    width: 100%;
     
 }
 
@@ -40,4 +64,8 @@
 
 .current-page {
     background-color: rgb(20, 20, 20);
+}
+
+.menu2 {
+  
 }

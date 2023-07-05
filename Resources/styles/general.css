@@ -132,9 +132,49 @@ body {
     height: 300px;
     justify-content: center;
     background-color: rgb(31, 31, 31);
-
-    margin: 80px 10px 10px 10px;
+    padding: 0 10px 0 10px;
+    margin: 85px 20px 10px 10px;
     color: white;
+    cursor: pointer;
+}
 
+.marcus:hover, .about-stoicism:hover, .about-section:hover, .book-cover:hover {
+    background-color: rgb(20, 20, 20);
+    cursor: pointer;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.253);
+}
+
+.grid2 {
+    display: grid;
+}
+
+.potriat {
+    position: absolute;
+    right: 10px;
+    top: 400px;
+    height: 100px;
+
+}
+
+.book-content-grid {
+        
+            padding-top: 80px;
+            display: grid;
+            grid-template-rows: 2fr 1fr;           
+            width: 938px;
+            margin:0;
+    
+
+}
+
+.book-content {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    background-color: rgb(31, 31, 31);
+    margin-top: 5px;
+    padding: 10px;
+    color: rgb(255, 255, 255)
     
 }
